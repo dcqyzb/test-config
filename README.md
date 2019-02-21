@@ -14,7 +14,8 @@
            lable:远程创库分支
            
 # spring cloud 配置中心服务配置：
-‘、、、spring:
+‘```yml
+spring:
   application:
     name: config-server
   cloud:
@@ -26,4 +27,4 @@
           username: git用户名
           password: git密码
       label: master
-、、、’
+```’
